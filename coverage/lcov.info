@@ -1,0 +1,35 @@
+TN:
+SF:src/bowling-game.js
+FN:13,Object.<anonymous>
+FN:2,BowlingGame
+FN:5,roll
+FN:8,get score
+FNF:4
+FNH:4
+FNDA:1,Object.<anonymous>
+FNDA:2,BowlingGame
+FNDA:40,roll
+FNDA:2,get score
+DA:1,1
+DA:2,1
+DA:3,2
+DA:4,2
+DA:5,1
+DA:6,40
+DA:7,40
+DA:8,1
+DA:9,2
+DA:10,2
+DA:11,1
+DA:12,1
+DA:13,1
+LF:13
+LH:13
+BRDA:13,0,0,1
+BRDA:13,1,0,1
+BRDA:2,2,0,2
+BRDA:5,3,0,40
+BRDA:8,4,0,2
+BRF:5
+BRH:5
+end_of_record
