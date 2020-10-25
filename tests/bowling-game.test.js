@@ -31,6 +31,13 @@ describe('kata of game bowling', () => {
         rollMany(0, 17);
         expect(game.score).toEqual(16)
     });
+    it('should return the correct score when a strike is roled', async () => {
+        game.roll(10);
+        game.roll(1);
+        game.roll(1);
+        rollMany(0, 17);
+        expect(game.score).toEqual(14)
+    });
 
 
 
