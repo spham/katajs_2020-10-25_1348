@@ -20,14 +20,19 @@ describe('kata of game bowling', () => {
     });
 
     it('should return 20 for a game of all one', async () => {
-        //  const game = new BowlingGame();
-        // for (let i = 0; i < 20; i++) {
-        //     game.roll(1);
-
-        // }
         rollMany(1, 20);
         expect(game.score).toEqual(20)
     });
+
+    it('should return the correct score when a spare is roled', async () => {
+        game.roll(5);
+        game.roll(5);
+        game.roll(3);
+        rollMany(0, 17);
+        expect(game.score).toEqual(16)
+    });
+
+
 
 });
 
