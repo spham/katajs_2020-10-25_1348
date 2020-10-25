@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1603633198059" clover="3.2.0">
-  <project timestamp="1603633198060" name="All files">
+<coverage generated="1603636065468" clover="3.2.0">
+  <project timestamp="1603636065468" name="All files">
     <metrics statements="13" coveredstatements="13" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4" elements="22" coveredelements="22" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
     <file name="bowling-game.js" path="/home/spham/katajs_2020-10-25_1348/src/bowling-game.js">
       <metrics statements="13" coveredstatements="13" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
