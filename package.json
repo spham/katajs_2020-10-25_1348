@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "jest --watch --coverage --runInBand",
-    "test": "jest"
+    "test": "jest --coverage --runInBand"
   },
   "keywords": [],
   "author": "",
